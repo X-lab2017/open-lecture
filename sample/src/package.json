@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /sample/ --out ../../dist/sample"
+  }
+}

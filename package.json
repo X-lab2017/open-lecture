@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && pnpm -r run build",
+    "dev": "npm run build && npx http-server dist"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.0.25",
+    "@slidev/cli": "^0.28.5",
+    "@slidev/theme-default": "^0.21.1",
+    "playwright-chromium": "^1.18.1",
+    "pnpm": "^6.30.0",
+    "rimraf": "^3.0.2"
+  }
+}
